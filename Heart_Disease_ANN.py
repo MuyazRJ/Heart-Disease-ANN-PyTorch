@@ -123,12 +123,12 @@ class HeartDiseaseANN(nn.Module):
 
             if epoch % 100 == 0:  # Print and store training information every 100 epochs
                 print(f"Loss: {training_loss} Epoch: {epoch}")
-                self.plot_info[epoch] = {"accuracy": self.getAccuracy(dataloader).detach().numpy(),
-                                        "loss": training_loss.detach().numpy()}
+                self.plot_info[epoch] = {"accuracy": self.getAccuracy(dataloader),
+                                        "loss": training_loss}
 
         print(f"Loss: {training_loss} Epoch: {epochs}")  # Print and store final training information
-        self.plot_info[epochs] = {"accuracy": self.getAccuracy(dataloader).detach().numpy(),
-                                "loss": training_loss.detach().numpy()}
+        self.plot_info[epochs] = {"accuracy": self.getAccuracy(dataloader),
+                                "loss": training_loss}
 
 
     def getAccuracy(self, dataloader):
