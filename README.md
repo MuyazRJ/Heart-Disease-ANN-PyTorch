@@ -17,20 +17,20 @@ Dataset obtained from: https://www.kaggle.com/datasets/fedesoriano/stroke-predic
 
 ## Neural Network Architecture 
 
-The neural network architecture is defined in the HeartDiseaseANN class. The class takes the following arguments during initialization:
+The neural network architecture is defined in the HeartDiseaseANN class. The class takes the following arguments during initialisation:
 
 input_size: Size of the input features.
 output_size: Size of the output predictions.
 hidden_layers: List of integers specifying the sizes of hidden layers.
-learning_rate: Learning rate for optimization.
+learning_rate: Learning rate for optimisation.
 The neural network has an input layer, hidden layers, and an output layer. ReLU activation function is applied to the input and hidden layers, and sigmoid activation function is applied to the output layer.
 
 The neural network model is trained using the trainModel() method, which takes the following arguments:
 
-dataloader: DataLoader for loading training data.
-epochs: Number of epochs for training.
-criterion: Loss function for optimization.
-optimizer: Optimization algorithm for updating model parameters.
+- dataloader: DataLoader for loading training data.
+- epochs: Number of epochs for training.
+- criterion: Loss function for optimisation.
+- optimiser: Optimisation algorithm for updating model parameters.
 
 ## Packages Used
 
