@@ -1,4 +1,4 @@
-# Heart-Disease-ANN-PyTorch
+# Heart Disease Artificial Neural Network (ANN) Using PyTorch
 This project implements an Artificial Neural Network (ANN) using PyTorch for predicting heart disease. The ANN is trained on a dataset with roughly 1000 data points and has been evaluated to achieve an accuracy of 87% on unseen data.
 
 The goal of this project is to build a machine learning model that can accurately predict the presence of heart disease based on input features such as age, sex, cholesterol levels, blood pressure, etc. The ANN is implemented using PyTorch, a popular deep learning framework, and trained using a dataset containing approximately 1000 data points.
