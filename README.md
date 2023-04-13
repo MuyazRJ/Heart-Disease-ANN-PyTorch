@@ -13,6 +13,8 @@ The heart disease dataset is preprocessed using the preprocessData() function. T
 - Converts the train and test data to torch tensors using torch.tensor().
 - Creates DataLoader objects for loading train and test data in batches using torch.utils.data.DataLoader().
 
+Dataset obtained from: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
 ## Neural Network Architecture 
 
 The neural network architecture is defined in the HeartDiseaseANN class. The class takes the following arguments during initialization:
